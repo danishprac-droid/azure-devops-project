@@ -13,7 +13,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'danishdevopsacr'
+        containerRegistry: 'danisdevopsacr'
         repository: $(imageName)
         command: buildAndPush
         Dockerfile: Dockerfile
